@@ -1,0 +1,5 @@
+AnyKernel2 for HTC M8
+
+The zImage,zImage-dtb,Image.gz and ramdisk.img files inside are build by darobbe and contains an AnyKernel2.zip which is modified and can boot a Htc M8 with LineageOS 14.1 including Atheros and Ralink Drivers for monitor mode in kali-nethunter . Feel free to insert your own Files there and start the build with :
+
+ zip -r9 UPDATE-AnyKernel2.zip * -x README UPDATE-AnyKernel2.zip 
